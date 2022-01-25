@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>ADI COMERCE ACTION SRL
+</title>
+  </head>
+  <body class="body">
+    <a name="top"></a>
+
+    <header>
+      <div class="header breadth">
+        <a class="logo" href="/html/index.html"> <img src="/images/logo2.svg" alt="logo"> </a>
+
+        <nav class="header-navbar">
+          <ul class="header-navbar-list">
+            <li class="header-navbar-list-item">
+              <a
+                href="/html/index.html"
+                class="header-navbar-list-item-link curent-page"
+                >home</a
+              >
+            </li>
+            <li class="header-navbar-list-item">
+              <a href="./products.html" class="header-navbar-list-item-link"
+                >products</a
+              >
+            </li>
+
+            <li class="header-navbar-list-item">
+              <a href="./aboutus.html" class="header-navbar-list-item-link"
+                >about us</a
+              >
+            </li>
+            <li class="header-navbar-list-item">
+              <a href="./contact.html" class="header-navbar-list-item-link"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn">&times;</a>
+          <a href="/html/index.html">Home</a>
+          <a href="./products.html">Products</a>
+          <a href="./aboutus.html">About us</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+        <span class="openbtn" style="font-size: 30px; cursor: pointer"
+          >&#9776;</span
+        >
+      </div>
+    </header>
+    <main class="main-product">
+      <div class="main-product-container breadth">
+        <div class="main-product-container-head">
+          <section class="main-product-container-head-content">
+            <h2>Shop <span>Product</span></h2>
+          </section>
+          <section class="main-product-container-head-content">
+            <h3>product</h3>
+            <p>short by:</p>
+            <div class="dropdown" data-dropdown>
+              <button class="link" data-dropdown-button>produc rating</button>
+              <ul class="dropdown-menu">
+                <li
+                  class="dropdown-menu-item sort-item"
+                  rel-data='{"first":"decrease","second":"increase"}'
+                  style="cursor: pointer"
+                >
+                  <label class="checked" for="a-z">
+                    <input
+                      type="radio"
+                      id="a-z"
+                      name="drone"
+                      value="product a-z"
+                      checked
+                    />
+                    <p>product a-z</p>
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li
+                  class="dropdown-menu-item sort-item"
+                  rel-data='{"first":"increase","second":"decrease"}'
+                  style="cursor: pointer"
+                >
+                  <label class="checked" for="z-a">
+                    <input
+                      type="radio"
+                      id="z-a"
+                      name="drone"
+                      value="product z-a"
+                      checked
+                    />
+                    <p>product z-a</p>
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="change-html">
+              <button class="change">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-th-large"></i>
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <div class="product-container-flex">
+          <div class="aside-imge">
+            <div class="aside dropdown" data-dropdown>
+              <button class="link" data-dropdown-button>Sort by</button>
+              <ul class="aside-list dropdown-menu">
+                <li class="aside-list-item" rel-category="liquid-detergent">
+                  <a href="">Liquid Detergent</a>
+                </li>
+                <li class="aside-list-item" rel-category="shampoo">
+                  <a href="">Shampoo</a>
+                </li>
+                <li class="aside-list-item" rel-category="degreaser">
+                  <a href="">Degreaser</a>
+                </li>
+                <li class="aside-list-item" rel-category="deodorant">
+                  <a href="">Deodorant </a>
+                </li>
+                <li class="aside-list-item" rel-category="dishwasher">
+                  <a href="">Dishwasher</a>
+                </li>
+                <li class="aside-list-item" rel-category="parquet-detergent">
+                  <a href="">Parquet Detergent</a>
+                </li>
+                <li class="aside-list-item" rel-category="hand-dishwashing">
+                  <a href="">Hand Dishwashing</a>
+                </li>
+                <li class="aside-list-item" rel-category="handkerchiefs">
+                  <a href="">Handkerchiefs</a>
+                </li>
+                <li class="aside-list-item" rel-category="hair-conditioner">
+                  <a href="">Hair Conditioner</a>
+                </li>
+                <li class="aside-list-item" rel-category="talcum-powder">
+                  <a href="">Talcum Powder</a>
+                </li>
+                <li class="aside-list-item" rel-category="pempers">
+                  <a href="">Pampers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-menu"></div>
+            <div class="product-img">
+             
+            </div>
+
+            <div class="product" id="product-content"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-media breadth">
+        <div class="footer-media-logo">
+          <a class="logo" href="./index.html"> <img src="/images/logo2.svg" alt="logo"> </a>
+        </div>
+        <div class="footer-media-link">
+          <h2>Useful links</h2>
+          <p><a href="/html/pages/terms-and-conditions.html">Terms & Conditions</a></p>
+          <p><a href="./contact.html" target="_blank">Contact</a></p>
+          <p><a href="./aboutus.html">About Us</a></p>
+        </div>
+        <div class="footer-media-contact">
+          <h2>Talk to Us</h2>
+          <div class="icon">
+            <i class="far fa-envelope"></i>
+            <div>
+              <p>
+
+adrian.cozma2609@gmail.com
+</p>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fas fa-phone"></i>
+            <div>
+              <p>+40722363185
+</p>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <p> Aleea ZARANDULUI, Nr. 4
+</p>
+              <p>Room No.1, Block 468, Floor 1, Apartment 5
+</p>
+              <p> Postal Code 21691</p>
+
+            </div>
+          </div>
+          <div class="icon">
+            <i class="far fa-building"></i>
+            <div>
+              <p>ADI COMERCE ACTION SRL
+</p>
+              <p>VAT:RO 41498698.</p>
+              <p>	J40/10454/2019</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-media-btn">
+          <button>
+            <a href="#top" class="center"><i class="fas fa-angle-up"></i></a>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/product.js"></script>
+  </body>
+</html>

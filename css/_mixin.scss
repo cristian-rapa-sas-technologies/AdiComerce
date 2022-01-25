@@ -1,0 +1,87 @@
+// flex rules
+
+.flex-pos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-pos-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-center-by-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-dir-space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-dir-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// grid rules
+
+.grid-area {
+  display: grid;
+  grid-template-areas:
+    "imge text"
+    "imge button";
+}
+
+.grid-area-row {
+  display: grid;
+  grid-template-areas:
+    "image name   "
+    "image para  "
+    "image button  ";
+  justify-content: start;
+  text-align: start;
+}
+
+//  Button rules
+
+.btn-prop {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+// elment posion
+
+.pos-rel {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+}
+.pos-fix {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
