@@ -87,68 +87,43 @@ header {
 
 
 
-.carusel {
-  position: relative;
-}
 
 .item1 {
   background-image: url(/images/Home-Page.jpg);
   background-color: #b3b1b1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.item2 {
-  background-image: url(/images/homepage.jpg);
-  background-color: #e6e3e3;
-  background-blend-mode: darken;
-}
+
 
 
 .fade-list-item {
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  color: $letter-color;
-  display: flex !important;
-  justify-content: center;
+ min-height: 700px;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
   &-btn {
-    display: flex;
-    align-items: center;
+    
+    text-align: center;
     @extend .btn-prop;
-    justify-content: center;
     background: $letter-color;
     text-decoration: none;
     color: #383998;
     border: 2px solid #383998;
+    font-size: 25px;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 0.2rem 0.5rem;
-    width: 300px;
-    height: 40px;
+    padding: 1.4rem 7rem;
+    z-index: 99;
+    margin-bottom: 35px;
     transition: background-color 0.3s ease-in;
-    margin-left: auto;
     box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.5);
     @media (max-width: 400px) {
       align-self: center;
     }
   }
-  .wrapper {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    @extend .flex-direction;
-
-    div {
-      display: flex;
-      flex-direction: column;
-
-      
-
-      @media (max-width: 420px) {
-        margin: auto;
-        text-align: center;
-      }
-    }
-  }
+  
 }
 
 // svg-wrapper
@@ -457,6 +432,10 @@ svg:nth-of-type(2) {
     &-link {
       height: 262px;
       order: 3;
+      @media (max-width: 600px) {
+        align-self: flex-start;
+        margin-left: 1.5rem,;
+      }
       h2 {
         margin-bottom: 2rem;
       }
@@ -490,6 +469,7 @@ svg:nth-of-type(2) {
     &-btn {
       display: flex;
       margin-top: auto;
+      margin-bottom: auto;
       order: 4;
       .center {
         font-weight: 500;
@@ -639,6 +619,7 @@ svg:nth-of-type(2) {
 @media (max-width: 580px) {
   .footer {
     &-media {
+      position: relative;
       flex-direction: column;
       width: 100%;
       &-link {
@@ -650,7 +631,9 @@ svg:nth-of-type(2) {
         margin: 1rem 0;
       }
       &-btn {
-        margin-left: auto;
+       position: absolute;
+       top: 70%;
+       right: 25px;
       }
     }
   }
