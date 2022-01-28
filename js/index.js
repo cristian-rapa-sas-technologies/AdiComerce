@@ -1,11 +1,3 @@
-$(".fade").slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: "linear",
-});
-
 const prevScrolling = document.querySelector("body");
 const closeBtn = document.querySelector(".closebtn");
 const openBtn = document.querySelector(".openbtn");
