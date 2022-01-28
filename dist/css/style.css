@@ -1746,14 +1746,6 @@ header {
   color: #FE0004;
 }
 
-.item2 {
-  background-image: url(/images/Home-Page.jpg);
-  background-color: #b3b1b1;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .fade-list-item1 {
   min-height: 700px;
   display: -webkit-box;
@@ -1791,6 +1783,14 @@ header {
         -ms-grid-row-align: center;
         align-self: center;
   }
+}
+
+.item2 {
+  background-image: url(/images/Home-Page.jpg);
+  background-color: #b3b1b1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .svg-container {
