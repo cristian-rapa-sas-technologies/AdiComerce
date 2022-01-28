@@ -1746,6 +1746,14 @@ header {
   color: #FE0004;
 }
 
+.fade-list-item.bg-image {
+  background-image: url(/images/Home-Page.jpg);
+  background-color: #b3b1b1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .fade-list-item {
   min-height: 700px;
   display: -webkit-box;
@@ -1757,11 +1765,6 @@ header {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url(/images/Home-Page.jpg);
-  background-color: #b3b1b1;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .fade-list-item-btn {
