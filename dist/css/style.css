@@ -103,7 +103,7 @@
 }
 
 .btn-prop, .main-product-container-head-btn, .main-product-container-head-btn-s, .main-product-container-head .change, .contact-form .form-group input,
-.contact-form .form-group textarea, .contact-form .form-group button, .fade-list-item1-btn, .btn {
+.contact-form .form-group textarea, .contact-form .form-group button, .fade-list-item-btn, .btn {
   border: none;
   outline: none;
   font-weight: bold;
@@ -1746,7 +1746,7 @@ header {
   color: #FE0004;
 }
 
-.fade-list-item1 {
+.fade-list-item {
   min-height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1757,9 +1757,14 @@ header {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  background-image: url(/images/Home-Page.jpg);
+  background-color: #b3b1b1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.fade-list-item1-btn {
+.fade-list-item-btn {
   text-align: center;
   background: #fff;
   text-decoration: none;
@@ -1778,19 +1783,11 @@ header {
 }
 
 @media (max-width: 400px) {
-  .fade-list-item1-btn {
+  .fade-list-item-btn {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
-}
-
-.item2 {
-  background-image: url(/images/Home-Page.jpg);
-  background-color: #b3b1b1;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .svg-container {
