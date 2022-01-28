@@ -103,7 +103,7 @@
 }
 
 .btn-prop, .main-product-container-head-btn, .main-product-container-head-btn-s, .main-product-container-head .change, .contact-form .form-group input,
-.contact-form .form-group textarea, .contact-form .form-group button, .fade-list-item-btn, .btn {
+.contact-form .form-group textarea, .contact-form .form-group button, .fade-list-item1-btn, .btn {
   border: none;
   outline: none;
   font-weight: bold;
@@ -1746,7 +1746,7 @@ header {
   color: #FE0004;
 }
 
-.item1 {
+.item2 {
   background-image: url(/images/Home-Page.jpg);
   background-color: #b3b1b1;
   background-position: center;
@@ -1754,7 +1754,7 @@ header {
   background-repeat: no-repeat;
 }
 
-.fade-list-item {
+.fade-list-item1 {
   min-height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1767,7 +1767,7 @@ header {
           align-items: flex-end;
 }
 
-.fade-list-item-btn {
+.fade-list-item1-btn {
   text-align: center;
   background: #fff;
   text-decoration: none;
@@ -1786,7 +1786,7 @@ header {
 }
 
 @media (max-width: 400px) {
-  .fade-list-item-btn {
+  .fade-list-item1-btn {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
